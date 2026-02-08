@@ -58,12 +58,12 @@ export default function Home() {
             </motion.p>
             
             <motion.div variants={fadeInUp} className="pt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link href="/madras-brew2004/menu">
+              <Link href="#/menu">
                 <button className="px-8 py-4 bg-accent text-white rounded-full font-bold tracking-wide hover:bg-accent/90 transition-all shadow-lg hover:shadow-orange-500/20 hover:-translate-y-1 flex items-center gap-2">
                   View Our Menu <ArrowRight size={18} />
                 </button>
               </Link>
-              <Link href="/madras-brew2004/locations">
+              <Link href="#/locations">
                 <button className="px-8 py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white rounded-full font-bold tracking-wide hover:bg-white/20 transition-all hover:-translate-y-1">
                   Find a Branch
                 </button>
@@ -169,7 +169,7 @@ export default function Home() {
                   <MapPin size={18} className="mt-1 flex-shrink-0" />
                   <p>Pachayappas Metro Thandavaraya, Chennai</p>
                 </div>
-                <Link href="/madras-brew2004/locations">
+                <Link href="#/locations">
                   <button className="w-full py-3 border-2 border-primary text-primary font-bold rounded-xl hover:bg-primary hover:text-white transition-colors uppercase text-sm tracking-widest">
                     View Location
                   </button>
@@ -198,7 +198,7 @@ export default function Home() {
                   <MapPin size={18} className="mt-1 flex-shrink-0" />
                   <p>Anna Nagar East Metro 2nd Ave, Block E, Chennai</p>
                 </div>
-                <Link href="/madras-brew2004/locations">
+                <Link href="#/locations">
                   <button className="w-full py-3 border-2 border-primary text-primary font-bold rounded-xl hover:bg-primary hover:text-white transition-colors uppercase text-sm tracking-widest">
                     View Location
                   </button>
@@ -218,12 +218,12 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Ready to taste the difference?</h2>
           <p className="text-xl text-white/80 mb-10 font-light">Join us for a cup of perfection at your nearest Madras Brew.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/madras-brew2004/menu">
+            <Link href="#/menu">
               <button className="px-8 py-4 bg-accent text-white rounded-full font-bold shadow-lg hover:bg-accent/90 transition-all hover:-translate-y-1">
                 Explore Menu
               </button>
             </Link>
-            <Link href="/madras-brew2004/madras-brew2004/contact">
+            <Link href="#/contact">
               <button className="px-8 py-4 bg-transparent border border-white/30 text-white rounded-full font-bold hover:bg-white/10 transition-all hover:-translate-y-1">
                 Get in Touch
               </button>
