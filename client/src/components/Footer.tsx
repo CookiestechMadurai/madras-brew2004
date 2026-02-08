@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-6 cursor-pointer">
+            <Link href="/madras-brew2004/" className="flex items-center gap-2 mb-6 cursor-pointer">
               <Coffee className="text-accent" size={28} />
               <span className="font-display font-bold text-2xl tracking-wider">MADRAS BREW</span>
             </Link>
@@ -32,10 +32,10 @@ export function Footer() {
           <div>
             <h3 className="font-display font-bold text-lg mb-6 text-accent">Discover</h3>
             <ul className="space-y-3">
-              <li><Link href="/" className="text-primary-foreground/70 hover:text-white transition-colors">Home</Link></li>
-              <li><Link href="/menu" className="text-primary-foreground/70 hover:text-white transition-colors">Our Menu</Link></li>
-              <li><Link href="/locations" className="text-primary-foreground/70 hover:text-white transition-colors">Locations</Link></li>
-              <li><Link href="/contact" className="text-primary-foreground/70 hover:text-white transition-colors">Contact Us</Link></li>
+              <li><Link href="/madras-brew2004/" className="text-primary-foreground/70 hover:text-white transition-colors">Home</Link></li>
+              <li><Link href="/madras-brew2004/menu" className="text-primary-foreground/70 hover:text-white transition-colors">Our Menu</Link></li>
+              <li><Link href="/madras-brew2004/locations" className="text-primary-foreground/70 hover:text-white transition-colors">Locations</Link></li>
+              <li><Link href="/madras-brew2004/contact" className="text-primary-foreground/70 hover:text-white transition-colors">Contact Us</Link></li>
             </ul>
           </div>
 

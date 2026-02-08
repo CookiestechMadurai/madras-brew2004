@@ -17,10 +17,10 @@ export function Navigation() {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "Menu", href: "/menu" },
-    { name: "Locations", href: "/locations" },
-    { name: "Contact", href: "/contact" },
+    { name: "Home", href: "/madras-brew2004/" },
+    { name: "Menu", href: "/madras-brew2004/menu" },
+    { name: "Locations", href: "/madras-brew2004/locations" },
+    { name: "Contact", href: "/madras-brew2004/contact" },
   ];
 
   const navbarClasses = `fixed w-full z-50 transition-all duration-300 ${
@@ -31,7 +31,7 @@ export function Navigation() {
     <nav className={navbarClasses}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-2 group cursor-pointer">
+          <Link href="/madras-brew2004/" className="flex items-center gap-2 group cursor-pointer">
             <div className="p-2 bg-primary rounded-lg text-primary-foreground group-hover:bg-accent transition-colors duration-300">
               <Coffee size={24} strokeWidth={2.5} />
             </div>
@@ -56,7 +56,7 @@ export function Navigation() {
                 {link.name}
               </Link>
             ))}
-            <Link href="/menu">
+            <Link href="/madras-brew2004/menu">
               <button className="bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full font-medium text-sm transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0">
                 Order Now
               </button>

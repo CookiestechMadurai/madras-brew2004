@@ -20,6 +20,8 @@ jobs:
         run: npm ci
       
       - name: Build client
+        env:
+          NODE_ENV: production
         run: npx vite build --base=/madras-brew2004/
       
       - name: Deploy to GitHub Pages

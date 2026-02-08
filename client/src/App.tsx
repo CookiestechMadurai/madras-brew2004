@@ -24,10 +24,10 @@ function Router() {
     <>
       <ScrollToTop />
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/menu" component={Menu} />
-        <Route path="/locations" component={Locations} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/madras-brew2004/" component={Home} />
+        <Route path="/madras-brew2004/menu" component={Menu} />
+        <Route path="/madras-brew2004/locations" component={Locations} />
+        <Route path="/madras-brew2004/contact" component={Contact} />
         <Route component={NotFound} />
       </Switch>
     </>
